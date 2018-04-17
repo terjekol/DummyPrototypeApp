@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="app.css"/>
+    <script src="app.js"></script>
+    <script src="thing1.js"></script>
+    <script src="thing2.js"></script>
+    <script src="thing3.js"></script>
+    <script src="search.js"></script>
+</head>
+<body onload="init()">
+    
+<div class="wrapper">
+    <header class="main-head">The header</header>
+    <nav class="main-nav">
+        <ul>
+            <li><a href="javascript:thing1()">Nav 1</a></li>
+            <li><a href="javascript:thing2()">Nav 2</a></li>
+            <li><a href="javascript:thing3()">Nav 3</a></li>
+            <li><a href="javascript:search()">Search</a></li>
+        </ul>
+    </nav>
+    <article id="mainContent" class="content">
+        <h1>Main article area</h1>
+        Layouten i denne filen er hentet herfra:
+        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Realizing_common_layouts_using_CSS_Grid_Layout">https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Realizing_common_layouts_using_CSS_Grid_Layout</a>
+        <p>In this layout, we display the areas in source order for any screen less that 500 pixels wide. We go to a two column layout, and then to a three column layout by redefining the grid, and the placement of items on the grid.</p>
+    </article>
+    <aside class="side">Sidebar</aside>
+    <div class="ad">Advertising</div>
+    <footer class="main-footer">The footer</footer>
+</div>
+</body>
+</html>
